@@ -1,5 +1,7 @@
 # AMD atieclxx SSD fix (manual, en español)
 
+🇬🇧 English version: [sebasshb/amd-atieclxx-ssd-fix](https://github.com/sebasshb/amd-atieclxx-ssd-fix)
+
 Arreglo **manual y transparente** para el bug de los drivers AMD Radeon en el que el servicio **"AMD External Events Utility"** (`atieclxx.exe`) escribe en el disco sin parar, a unos **54–56 GB por día**, **sin desactivar el servicio**. Así siguen funcionando **VRR/FreeSync** y los atajos de Adrenalin.
 
 > ⚠️ Arreglo **no oficial**, sin relación con AMD. Úsalo bajo tu propia responsabilidad (ver [LICENSE](LICENSE)).
@@ -81,6 +83,7 @@ En un PC con Ryzen 7 5800X3D, RX 9060 XT y Windows 11, la escritura de `atieclxx
 
 ## Créditos y fuentes
 
+- Versión en inglés: [sebasshb/amd-atieclxx-ssd-fix](https://github.com/sebasshb/amd-atieclxx-ssd-fix)
 - La investigación técnica (la autocopia cada segundo y el bloqueo por ACL) viene de [necanditool/Radeon-atieclxx-SSD-Fix](https://github.com/necanditool/Radeon-atieclxx-SSD-Fix), licencia MIT. Este repo es una versión mínima y manual, en español.
 - [Hardware Busters: AMD confirma el bug, arreglo en Adrenalin 26.11.1](https://hwbusters.com/news/amd-confirms-radeon-driver-bug-that-keeps-ssds-writing-at-idle-fix-due-in-adrenalin-26-11-1/)
 - [TechPowerUp: AMD Confirms Excessive SSD Writes in Radeon Drivers](https://www.techpowerup.com/354605/amd-confirms-excessive-ssd-writes-in-radeon-drivers-fix-coming-with-adrenalin-26-11-1)
